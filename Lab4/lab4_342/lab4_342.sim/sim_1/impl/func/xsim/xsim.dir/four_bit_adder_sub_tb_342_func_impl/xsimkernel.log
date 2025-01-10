@@ -1,0 +1,7 @@
+Running: xsim.dir/four_bit_adder_sub_tb_342_func_impl/xsimk.exe -simmode gui -wdb four_bit_adder_sub_tb_342_func_impl.wdb -simrunnum 0 -socket 11764
+Design successfully loaded
+Design Loading Memory Usage: 10396 KB (Peak: 10396 KB)
+Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 11136 KB (Peak: 11136 KB)
+Simulation CPU Usage: 78 ms

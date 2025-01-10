@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/3310Labs/project_1/project_1.sim/sim_1/impl/timing/xsim/Control_LED_tb_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control_LED
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/3310Labs/project_1/project_1.srcs/sim_1/new/Control_LED_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Control_LED_tb'

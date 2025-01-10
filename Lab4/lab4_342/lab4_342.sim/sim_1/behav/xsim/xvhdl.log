@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/3310Labs/Lab4/lab4_342/lab4_342.srcs/sources_1/new/four_bit_adder_sub_342.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'four_bit_adder_sub_342'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/3310Labs/Lab2A_342/Lab2A_342.srcs/sources_1/new/xor_array_342.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'xor_array_342'

@@ -1,0 +1,277 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.1 (64-bit)
+# SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
+# IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
+# SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
+# Start of session at: Sat Nov  9 01:00:21 2024
+# Process ID: 21720
+# Current directory: E:/3310Labs/Lab6_342/Lab6_342.runs/synth_1
+# Command line: vivado.exe -log show_adder_sub_342.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source show_adder_sub_342.tcl
+# Log file: E:/3310Labs/Lab6_342/Lab6_342.runs/synth_1/show_adder_sub_342.vds
+# Journal file: E:/3310Labs/Lab6_342/Lab6_342.runs/synth_1\vivado.jou
+# Running On        :LAPTOP-D2QVBJO8
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26120
+# Processor Detail  :AMD Ryzen 7 5800H with Radeon Graphics         
+# CPU Frequency     :3194 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :14877 MB
+# Swap memory       :13958 MB
+# Total Virtual     :28835 MB
+# Available Virtual :9975 MB
+#-----------------------------------------------------------
+source show_adder_sub_342.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 515.832 ; gain = 199.102
+Command: read_checkpoint -auto_incremental -incremental E:/3310Labs/Lab6_342/Lab6_342.srcs/utils_1/imports/synth_1/show_adder_sub_342.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/3310Labs/Lab6_342/Lab6_342.srcs/utils_1/imports/synth_1/show_adder_sub_342.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top show_adder_sub_342 -part xc7a35tcpg236-3
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-3
+INFO: [Device 21-9227] Part: xc7a35tcpg236-3 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 22012
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1371.836 ; gain = 449.520
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'show_adder_sub_342' [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/show_adder_sub_342.vhd:22]
+INFO: [Synth 8-3491] module 'four_bit_adder_sub_342' declared at 'E:/3310Labs/Lab4/lab4_342/lab4_342.srcs/sources_1/new/four_bit_adder_sub_342.vhd:34' bound to instance 'U1' of component 'four_bit_adder_sub_342' [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/show_adder_sub_342.vhd:46]
+INFO: [Synth 8-638] synthesizing module 'four_bit_adder_sub_342' [E:/3310Labs/Lab4/lab4_342/lab4_342.srcs/sources_1/new/four_bit_adder_sub_342.vhd:40]
+INFO: [Synth 8-3491] module 'xor_array_342' declared at 'E:/3310Labs/Lab2A_342/Lab2A_342.srcs/sources_1/new/xor_array_342.vhd:34' bound to instance 'XOR0' of component 'xor_array_342' [E:/3310Labs/Lab4/lab4_342/lab4_342.srcs/sources_1/new/four_bit_adder_sub_342.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'xor_array_342' [E:/3310Labs/Lab2A_342/Lab2A_342.srcs/sources_1/new/xor_array_342.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'xor_array_342' (0#1) [E:/3310Labs/Lab2A_342/Lab2A_342.srcs/sources_1/new/xor_array_342.vhd:42]
+INFO: [Synth 8-3491] module 'four_bit_adder_342' declared at 'E:/3310Labs/Lab3_342/Lab3_342.srcs/sources_1/new/four_bit_adder_342.vhd:34' bound to instance 'FA0' of component 'four_bit_adder_342' [E:/3310Labs/Lab4/lab4_342/lab4_342.srcs/sources_1/new/four_bit_adder_sub_342.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'four_bit_adder_342' [E:/3310Labs/Lab3_342/Lab3_342.srcs/sources_1/new/four_bit_adder_342.vhd:47]
+INFO: [Synth 8-3491] module 'full_adder_342' declared at 'E:/3310Labs/Lab2B_342/Lab2B_342.srcs/sources_1/new/full_adder_342.vhd:34' bound to instance 'FA0' of component 'full_adder_342' [E:/3310Labs/Lab3_342/Lab3_342.srcs/sources_1/new/four_bit_adder_342.vhd:60]
+INFO: [Synth 8-638] synthesizing module 'full_adder_342' [E:/3310Labs/Lab2B_342/Lab2B_342.srcs/sources_1/new/full_adder_342.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'full_adder_342' (0#1) [E:/3310Labs/Lab2B_342/Lab2B_342.srcs/sources_1/new/full_adder_342.vhd:40]
+INFO: [Synth 8-3491] module 'full_adder_342' declared at 'E:/3310Labs/Lab2B_342/Lab2B_342.srcs/sources_1/new/full_adder_342.vhd:34' bound to instance 'FA1' of component 'full_adder_342' [E:/3310Labs/Lab3_342/Lab3_342.srcs/sources_1/new/four_bit_adder_342.vhd:61]
+INFO: [Synth 8-3491] module 'full_adder_342' declared at 'E:/3310Labs/Lab2B_342/Lab2B_342.srcs/sources_1/new/full_adder_342.vhd:34' bound to instance 'FA2' of component 'full_adder_342' [E:/3310Labs/Lab3_342/Lab3_342.srcs/sources_1/new/four_bit_adder_342.vhd:62]
+INFO: [Synth 8-3491] module 'full_adder_342' declared at 'E:/3310Labs/Lab2B_342/Lab2B_342.srcs/sources_1/new/full_adder_342.vhd:34' bound to instance 'FA3' of component 'full_adder_342' [E:/3310Labs/Lab3_342/Lab3_342.srcs/sources_1/new/four_bit_adder_342.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'four_bit_adder_342' (0#1) [E:/3310Labs/Lab3_342/Lab3_342.srcs/sources_1/new/four_bit_adder_342.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'four_bit_adder_sub_342' (0#1) [E:/3310Labs/Lab4/lab4_342/lab4_342.srcs/sources_1/new/four_bit_adder_sub_342.vhd:40]
+INFO: [Synth 8-3491] module 'seven_segment_display_342' declared at 'E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/seven_segment_display_342.vhd:5' bound to instance 'U2' of component 'seven_segment_display_342' [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/show_adder_sub_342.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'seven_segment_display_342' [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/seven_segment_display_342.vhd:16]
+INFO: [Synth 8-226] default block is never used [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/seven_segment_display_342.vhd:71]
+WARNING: [Synth 8-614] signal 'displayed_number_dec' is read in the process but is not in the sensitivity list [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/seven_segment_display_342.vhd:69]
+INFO: [Synth 8-256] done synthesizing module 'seven_segment_display_342' (0#1) [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/seven_segment_display_342.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'show_adder_sub_342' (0#1) [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/show_adder_sub_342.vhd:22]
+WARNING: [Synth 8-7129] Port displayed_number[15] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[14] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[13] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[12] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[11] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[10] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[9] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[8] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[7] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[6] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[5] in module seven_segment_display_342 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port displayed_number[4] in module seven_segment_display_342 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1482.539 ; gain = 560.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1482.539 ; gain = 560.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1482.539 ; gain = 560.223
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1482.539 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/3310Labs/Lab6_342/Lab6_342.srcs/constrs_1/new/show_adder_sub_342.xdc]
+Finished Parsing XDC File [E:/3310Labs/Lab6_342/Lab6_342.srcs/constrs_1/new/show_adder_sub_342.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/3310Labs/Lab6_342/Lab6_342.srcs/constrs_1/new/show_adder_sub_342.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/show_adder_sub_342_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/show_adder_sub_342_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1552.805 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1552.805 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'displayed_number_dec_reg' [E:/3310Labs/Lab6_342/Lab6_342.srcs/sources_1/new/seven_segment_display_342.vhd:98]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input    2 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 13    
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   7 Input   16 Bit        Muxes := 2     
+	   2 Input   16 Bit        Muxes := 2     
+	   4 Input    4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (U2/displayed_number_dec_reg[15]) is unused and will be removed from module show_adder_sub_342.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     5|
+|3     |LUT1   |     1|
+|4     |LUT2   |     5|
+|5     |LUT4   |     1|
+|6     |LUT5   |     4|
+|7     |LUT6   |    10|
+|8     |FDCE   |    18|
+|9     |FDRE   |     2|
+|10    |IBUF   |    11|
+|11    |OBUF   |    12|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1552.805 ; gain = 630.488
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 1552.805 ; gain = 560.223
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1552.805 ; gain = 630.488
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1552.805 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 5 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1552.805 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: e489ac66
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 16 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1552.805 ; gain = 1024.777
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1552.805 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/3310Labs/Lab6_342/Lab6_342.runs/synth_1/show_adder_sub_342.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file show_adder_sub_342_utilization_synth.rpt -pb show_adder_sub_342_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  9 01:00:58 2024...

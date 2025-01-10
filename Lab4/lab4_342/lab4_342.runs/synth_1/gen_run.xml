@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-3" LaunchTime="1728661471">
+  <File Type="PA-TCL" Name="four_bit_adder_sub_342.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="four_bit_adder_sub_342_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="four_bit_adder_sub_342_reports.tcl"/>
+  <File Type="RDS-RDS" Name="four_bit_adder_sub_342.vds"/>
+  <File Type="RDS-UTIL" Name="four_bit_adder_sub_342_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="four_bit_adder_sub_342_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="four_bit_adder_sub_342.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="four_bit_adder_sub_342_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="four_bit_adder_sub_342_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../../Lab3_342/Lab3_342.srcs/sources_1/new/four_bit_adder_342.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Lab2B_342/Lab2B_342.srcs/sources_1/new/full_adder_342.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../Lab2A_342/Lab2A_342.srcs/sources_1/new/xor_array_342.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/four_bit_adder_sub_342.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="four_bit_adder_sub_342"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/four_bit_adder_sub_342.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

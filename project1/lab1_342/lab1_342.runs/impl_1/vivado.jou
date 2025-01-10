@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1.1 (64-bit)
+# SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
+# IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
+# SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
+# Start of session at: Mon Sep 23 13:05:51 2024
+# Process ID: 12560
+# Current directory: E:/3310Labs/project1/lab1_342/lab1_342.runs/impl_1
+# Command line: vivado.exe -log Control_LED.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Control_LED.tcl -notrace
+# Log file: E:/3310Labs/project1/lab1_342/lab1_342.runs/impl_1/Control_LED.vdi
+# Journal file: E:/3310Labs/project1/lab1_342/lab1_342.runs/impl_1\vivado.jou
+# Running On        :LAPTOP-D2QVBJO8
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :26120
+# Processor Detail  :AMD Ryzen 7 5800H with Radeon Graphics         
+# CPU Frequency     :3194 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :14877 MB
+# Swap memory       :17989 MB
+# Total Virtual     :32866 MB
+# Available Virtual :21890 MB
+#-----------------------------------------------------------
+source Control_LED.tcl -notrace

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/3310Labs/Lab2B_342/Lab2B_342.srcs/sources_1/new/full_adder_342.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder_342'
+INFO: [VRFC 10-163] Analyzing VHDL file "E:/3310Labs/Lab2B_342/Lab2B_342.srcs/sim_1/new/full_adder_tb_342.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'full_adder_tb_342'

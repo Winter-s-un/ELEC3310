@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/3310Labs/miniproject_342/miniproject_342.sim/sim_1/impl/func/xsim/Sequence_Detector_TB_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Sequence_Detector
+INFO: [VRFC 10-311] analyzing module clk_divider
+INFO: [VRFC 10-311] analyzing module glbl
